@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <section class="view"> 
+        <div class="view-top">
+            <button class="side-btn"></button>
+            <h2>Standard</h2>
+        </div>
+        <div class="view-mid">
+            <p id="up-p"></p>
+            <p id="mid-p">0</p>
+        </div>
+    </section>
+    <section class="past">
+        <div class="top-past">
+            <div class="past-div">
+                <h3 onclick="his()">History
+                </h3>
+                <h3 onclick="mem()">Memory
+                </h3>
+                <span class="span-mem" id="bar"></span>
+            </div> 
+        </div>
+    </section>
+    <section class="buts">
+        <input type="button" value="%" class="opert"></input >
+        <input type="button" onclick="root2()" value="^0.5" class="opert"></input >
+        <input type="button" onclick="pow_2()" value="x^2" class="opert"></input >
+        <input type="button" onclick="inverse()" value="1/x" class="opert"></input >
+        <input type="button" onclick="ce()" value="CE" class="opert"></input >
+        <a href="index.html"><input type="button" value="C" class="opert"></input ></a>
+        <input type="button" onclick="del()" value="Delete" class="opert"></input >
+        <input type="button" onclick="divide()" value="/" class="opert sym"></input >
+        <input type="button" onclick="get_val(7)" value="7" class="opert val-black" ></input >
+        <input type="button" onclick="get_val(8)" value="8" class="opert val-black" ></input >
+        <input type="button" onclick="get_val(9)" value="9" class="opert val-black" ></input >
+        <input type="button" onclick="multiply()" value="*" class="opert sym"></input >
+        <input type="button" onclick="get_val(4)" value="4" class="opert val-black" ></input >
+        <input type="button" onclick="get_val(5)" value="5" class="opert val-black" ></input >
+        <input type="button" onclick="get_val(6)" value="6" class="opert val-black" ></input >
+        <input type="button" onclick="minusOp()" value="-" class="opert sym"></input >
+        <input type="button" onclick="get_val(1)" value="1" class="opert val-black" ></input >
+        <input type="button" onclick="get_val(2)"  value="2" class="opert val-black" ></input >
+        <input type="button" onclick="get_val(3)" value="3" class="opert val-black" ></input >
+        <input type="button" onclick="addOp()" value="+" class="opert sym"></input >
+        <input type="button" onclick="sign()" value="+ -" class="opert" ></input >
+        <input type="button" onclick="get_val(0)" value="0" class="opert val-black" ></input >
+        <input type="button" onclick="val_()" value="." class="opert" ></input >
+        <input type="button" onclick="equal()" value="=" class="opert sym"></input >
+    </section>
+</body>
+</html>

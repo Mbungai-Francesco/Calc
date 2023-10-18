@@ -1,0 +1,119 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(60, 60, 60);
+    position: relative;
+}
+.view{
+    position: absolute;
+    width: 70%;
+    height: 30vh;
+    background-color: transparent;
+}
+.view-top{
+    height: 20%;
+    background-color: transparent;
+}
+.side-btn{
+    display: inline-block;
+}
+h2{
+    display: inline-block
+}
+.view-mid{
+    height: 80%;
+    background-color: transparent;
+}
+#up-p{
+    text-align: right;
+    height: 15%;
+    padding-right: 10px;
+    background-color: transparent;
+}
+#mid-p{
+    text-align: right;
+    font-size: 3.625rem;
+    height: 65%;
+    background-color: transparent;
+}
+.past{
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: transparent;
+}
+.buts{
+    position: absolute;
+    width: 70%;
+    height: 70vh;
+    background-color:transparent;
+    top: 30vh;
+    font-size: 0;
+}
+.top-past{
+    height: 10vh;
+    background-color: transparent;
+}
+h3{
+    position: absolute;
+    top: 3vh;
+    display: inline-block;
+    cursor: default;
+}
+h3:hover{
+    color: rgb(174, 173, 173);
+}
+.top-past h3:nth-child(1){
+    margin-left: 1.8rem;
+}
+.top-past h3:nth-child(2){
+    margin-left: 2.875rem;
+    left: 30%;
+}
+.past-div{
+    position: relative;
+}
+.span-mem{
+    position: absolute;
+    display: block;
+    width: 70.25px;
+    height: 3px;
+    left: 1.8rem;
+    top: 6vh;
+    background-color: violet;
+}
+.opert{
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: 0;
+    display: inline-block;
+    width: 24.5%;
+    height: 11.36vh;
+    background-color: rgb(39, 38, 38);
+    margin: 0.079rem;
+    color: violet;
+}
+.opert:hover{
+    background-color: transparent;
+}
+.sym:hover{
+    background-color: rgb(121, 32, 121);
+    color: white;
+}
+.val-black{
+    background-color: black
+}
+/*.opert:nth-child(2){
+    left: 25%;
+}
+.opert:nth-child(3){
+    left: 50%;
+}
+.opert:nth-child(4){
+    left: 75%;
+}*/
