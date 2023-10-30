@@ -97,6 +97,7 @@ h3:hover{
     background-color: rgb(39, 38, 38);
     margin: 0.079rem;
     color: violet;
+    text-align: center;
 }
 .opert:hover{
     background-color: transparent;
@@ -110,7 +111,7 @@ h3:hover{
 }
 @media (max-width : 800px){
     .view{
-        width: 100%;
+        width: 95%;
     }
     .past{
         display: none;
@@ -119,7 +120,7 @@ h3:hover{
         width: 100%;
     }
     .opert{
-        width: 24.2%;
+        width: 24%;
     }
 }
 /*.opert:nth-child(2){
