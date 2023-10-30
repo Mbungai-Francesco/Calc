@@ -108,6 +108,20 @@ h3:hover{
 .val-black{
     background-color: black
 }
+@media (max-width : 800px){
+    .view{
+        width: 100%;
+    }
+    .past{
+        display: none;
+    }
+    .buts{
+        width: 100%;
+    }
+    .opert{
+        width: 24.2%;
+    }
+}
 /*.opert:nth-child(2){
     left: 25%;
 }
