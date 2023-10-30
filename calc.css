@@ -123,10 +123,11 @@ h3:hover{
         width: 24%;
     }
     .sym:hover{
+        color: violet;
+        background-color: rgb(39, 38, 38);
     }
     .opert:hover{
-    }
-    h3:hover{
+        background-color: rgb(39, 38, 38);
     }
 }
 /*.opert:nth-child(2){
