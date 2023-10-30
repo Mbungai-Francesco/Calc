@@ -122,12 +122,12 @@ h3:hover{
     .opert{
         width: 24%;
     }
-    .sym:hover{
+    .opert:hover{
         color: violet;
         background-color: rgb(39, 38, 38);
     }
-    .opert:hover{
-        background-color: rgb(39, 38, 38);
+    .val-black:hover{
+        background-color: black;
     }
 }
 /*.opert:nth-child(2){
